@@ -39,6 +39,8 @@ import boto3
 import pandas as pd
 import requests
 
+#comment don t add ressources
+
 try:
     from awsglue.utils import getResolvedOptions
 except ImportError:
