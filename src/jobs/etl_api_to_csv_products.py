@@ -67,6 +67,7 @@ def get_args() -> dict:
     """
     Retrieve CONFIG_PATH from AWS Glue or local execution.
     """
+    #comment for test the third path 
 
     try:
         args = getResolvedOptions(sys.argv, ["CONFIG_PATH"])
